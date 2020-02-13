@@ -1,0 +1,60 @@
+@charset "utf-8";
+/* CSS Document */
+body { 
+background-image:url(99ab9cca-e6bf-4d51-8491-31e57213b8d0_1_3_2000x1000.jpeg);
+background-position:top;
+background-repeat:no-repeat;
+background-attachment:fixed;
+background-size:cover;
+height:100%;
+}
+img {
+	opacity:0.8;
+}
+img:hover {
+	opacity:1.0;
+}
+#div {
+	width:500px;
+	height:550px; 
+	border:2px  solid#333;
+	margin-left:auto;
+	margin-right:auto;
+	display:block;
+	margin-top:35px;
+}
+.form-group {
+	padding-top:48px;
+}	
+#head {
+	color:#FFF;
+	font-style:italic;
+	font-size:20px;
+}
+#p {
+	color:#FFF;
+	font-size:20px;
+    font-size:20px;
+}
+
+#email {
+	color:#FFF;
+	font-style:italic;
+    font-size:20px;
+}
+
+#h1 {
+	color:#000;
+	text-align:center;
+	font-style:italic;
+    font-size:px;
+	border:2px  solid#333;
+    width:500px;
+	margin-left:auto;
+	margin-right:auto;
+}
+#btn-mar {
+	margin-top:12px;
+}
+
+

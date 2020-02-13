@@ -1,0 +1,56 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Sign Up</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style (2).css"/>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+</head>
+
+
+<body>
+<div id="div">
+<center>
+<a href="https://mtouch.facebook.com/login/"><img src="fb-continue.png" id="img"></a>
+<h4 id="h4">Sign Up</h4>
+<form class="form-group" id="form">
+<input type="email" name="username" placeholder="Email" class="input-lg" id="txtEmail"><br>
+<input type="text" name="username" placeholder="Username" class="input-lg" required><br>
+<input type="password" name="password" placeholder="Password" class="input-lg" required><br>
+<input type="password" name="confirm-password" placeholder="Confirm Password" class="input-lg" required><br>
+<br>
+<a href=""><input type="submit" name="submit" class="btn btn-primary" onClick="validate()"></a><br>
+
+
+
+</form>
+</center>
+</div>
+
+<script>
+
+function validate() 
+
+{  
+	var email = document.getElementById('txtEmail');
+    var filter = /^([a-zA-Z0-9])+\@(([a-zA-Z])+\.)+([a-zA-Z]{2,4})+$/;
+
+    if (!filter.test(email.value)) {
+    alert('Please provide a valid email address');
+    email.focus;
+    return false;
+	}
+}
+
+</script>
+
+
+
+
+
+
+
+</body>
+</html>
